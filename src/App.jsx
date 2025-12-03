@@ -1,12 +1,15 @@
 import './App.css'
-import OptionCard from './components/optioncard/OptionCard'
+import SmallOptionCard from './components/smalloptioncard/SmallOptionCard'
+
+// import OptionCard from './components/optioncard/OptionCard'
 
 
 function App() {
 
   return (
     <>
-  <OptionCard/>
+  {/* <OptionCard/> */}
+  <SmallOptionCard/>
     </>
   )
 }
