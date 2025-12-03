@@ -1,0 +1,15 @@
+@font-face{
+    font-family: Playfair;
+    src:url("/font/PlayfairDisplay-Regular.ttf")
+}
+@import "tailwindcss";
+
+body{
+    background-color: rgb(201, 203, 205);
+}
+
+@theme{
+    --font-Playfair: Playfair,"sans-arial"
+}
+
+
