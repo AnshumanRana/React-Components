@@ -1,5 +1,6 @@
 import './App.css'
-import Profilecard from './components/profilecard/Profilecard'
+import HistogramChart from './components/histogramchart/HistogramChart'
+// import Profilecard from './components/profilecard/Profilecard'
 // import SmallOptionCard from './components/smalloptioncard/SmallOptionCard'
 // import OptionCard from './components/optioncard/OptionCard'
 
@@ -10,7 +11,8 @@ function App() {
     <>
   {/* <OptionCard/> */}
   {/* <SmallOptionCard/> */}
-  <Profilecard/>
+  {/* <Profilecard/> */}
+  <HistogramChart/>
     </>
   )
 }
